@@ -39,7 +39,7 @@
 #include <sys/socket.h>
 #include "pkt2flow.h"
 
-struct ip_pair *pairs [HASH_TBL_SIZE];
+// struct ip_pair *pairs [HASH_TBL_SIZE];
 
 void init_hash_table(void)
 {
