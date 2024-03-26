@@ -38,6 +38,7 @@
 #include <string.h>
 #include <sys/socket.h>
 #include "pkt2flow.h"
+#define _GNU_SOURCE
 
 char *new_file_name(struct af_6tuple af_6tuple, unsigned long timestamp)
 {
