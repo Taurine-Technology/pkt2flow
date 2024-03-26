@@ -50,7 +50,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include "pkt2flow.h"
-
+#define _GNU_SOURCE
 static uint32_t dump_allowed;
 static char *readfile = NULL;
 //char *interface = NULL;
